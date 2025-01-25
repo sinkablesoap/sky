@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    height: 633px;
+    background-image: url(gencraft_image_1730029651076-1.png);
+}
+h1{
+    font-size: 40px;
+    color: #00ffff;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}

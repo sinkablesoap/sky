@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000 ;
+}
+.heart{
+    width: 100px;
+    position: fixed;
+    bottom: 1%;
+    left: 45%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+i{
+    background: #000 transparent;
+    font-size: 350px;
+    animation: beat 0.9s infinite;
+    text-shadow:
+        0 0 30px aqua,
+        0 0 90px rgba(0,32,102),
+        0 0 130px purple
+    ;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+}
+h1{
+    padding: 20px;
+    font-size: 50px;
+    color: #000;
+}
+p1{
+    color: #000;
+}
+p2{
+    padding: 10px;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
